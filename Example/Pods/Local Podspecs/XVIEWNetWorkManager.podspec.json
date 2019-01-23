@@ -1,0 +1,30 @@
+{
+  "name": "XVIEWNetWorkManager",
+  "version": "0.1.0",
+  "summary": "网络库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xiaheng666/XVIEWNetWorkManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaheng666": "key@xiaheng.net"
+  },
+  "source": {
+    "git": "git@github.com:xiaheng666/XVIEWNetWorkManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "vendored_libraries": "XVIEWNetWorkManager/Classes/*.a"
+  },
+  "source_files": "XVIEWNetWorkManager/Classes/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "3.1.0"
+    ]
+  }
+}

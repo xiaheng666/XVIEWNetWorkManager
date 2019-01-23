@@ -1,0 +1,6 @@
+framework module XVIEWNetWorkManager {
+  umbrella header "XVIEWNetWorkManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

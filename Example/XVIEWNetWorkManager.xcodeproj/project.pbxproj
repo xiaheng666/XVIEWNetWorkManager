@@ -62,10 +62,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		892D22114DA9CC2F3272AFC8 /* Pods-XVIEWNetWorkManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWNetWorkManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWNetWorkManager_Example/Pods-XVIEWNetWorkManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8BA841CFB17D24EBC929FFB0 /* XVIEWNetWorkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XVIEWNetWorkManager.podspec; path = ../XVIEWNetWorkManager.podspec; sourceTree = "<group>"; };
+		8BA841CFB17D24EBC929FFB0 /* XVIEWNetWorkManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWNetWorkManager.podspec; path = ../XVIEWNetWorkManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CA651D5EBC7F689F1F6CD394 /* Pods-XVIEWNetWorkManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWNetWorkManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWNetWorkManager_Tests/Pods-XVIEWNetWorkManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4950615D07016FDA6DD4C18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D5EEED8B06720C9D809FC4F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4950615D07016FDA6DD4C18 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D5EEED8B06720C9D809FC4F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ECFF44175F7FB44B6F0CC8D0 /* Pods_XVIEWNetWorkManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWNetWorkManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = maomao520benben;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 24N474AU9T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -301,11 +304,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWNetWorkManager_Example/Pods-XVIEWNetWorkManager_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XVIEWNetWorkManager/XVIEWNetWorkManager.framework",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XVIEWNetWorkManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 4A2E04623419D9956E410475 /* Pods-XVIEWNetWorkManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWNetWorkManager/XVIEWNetWorkManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWNetWorkManager/XVIEWNetWorkManager-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 892D22114DA9CC2F3272AFC8 /* Pods-XVIEWNetWorkManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24N474AU9T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XVIEWNetWorkManager/XVIEWNetWorkManager-Prefix.pch";
 				INFOPLIST_FILE = "XVIEWNetWorkManager/XVIEWNetWorkManager-Info.plist";
