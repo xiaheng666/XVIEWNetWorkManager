@@ -18,11 +18,18 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedNetworkManager;
 
 /**
- *  请求
- @param param     data    {"type":请求类型  0 Get请求/1 POST请求,url  请求地址,其他参数},
+ *  GET请求
+ @param param     data    {url  请求地址,其他参数},
  callback回调方法
  */
-- (void)request:(NSDictionary *)param;
+- (void)get:(NSDictionary *)param;
+
+/**
+ *  POST请求
+ @param param     data    {url  请求地址,其他参数},
+ callback回调方法
+ */
+- (void)post:(NSDictionary *)param;
 
 /**
  *  下载
